@@ -202,6 +202,7 @@ assign                  pad_00_wd_cntr_rld          = pad_otpt_lst_o;
 
 //实现流程状态机
 always @(*) begin
+    nxt_state   =   IDLE;
     case (state)
         IDLE: begin
             if(msg_inpt_vld_i && ~msg_inpt_lst_i)
