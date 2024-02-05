@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is an implementation of  Chinese SM4 (also known as sms4) encryption algorithm. 
+本项目是中国SM4（也称为sms4）加密算法的一个实现。 
 
 ### Features
 
@@ -15,11 +15,12 @@ This project is an implementation of  Chinese SM4 (also known as sms4) encryptio
 
 ## Architecture
 
-![framework](Documents/images/framework.png)
+![framework](doc/framework.png)
 
 ## Interface
 
-![interface](Documents/images/interface.png)
+目前采用简单接口设计，并支持tl_ul总线接口。
+
 
 | Interface         | direction | width   | description                        |
 | ----------------- | --------- | ------- | ---------------------------------- |
@@ -41,7 +42,7 @@ This project is an implementation of  Chinese SM4 (also known as sms4) encryptio
 notice!!:每次加密或者解密，读取输出数据后要将encdec_enable_in置0否则，valid_out将一直有效
 
 ## Timing
-![timing](Documents/images/timing.png)
+![timing](doc/timing.png)
 
 > Timing diagram is edited by [WaveDrom](https://github.com/drom/wavedrom/releases)
 
@@ -66,13 +67,13 @@ notice!!:每次加密或者解密，读取输出数据后要将encdec_enable_in�
 
 ## FPGA resource utilization
 
-![utilization](Documents/images/utilization.png)
+![utilization](doc/utilization.png)
 
 
 
 ## FPGA  Power Report
 
-![power](Documents/images/power.png)
+![power](doc/power.png)
 
 
 
@@ -80,4 +81,4 @@ notice!!:每次加密或者解密，读取输出数据后要将encdec_enable_in�
 
 The period of clock is set to 2ns.
 
-![timing_report](Documents/images/timing_report.png)
+![timing_report](doc/timing_report.png)
