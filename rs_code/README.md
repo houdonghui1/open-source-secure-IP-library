@@ -27,7 +27,7 @@ Erasure Code（EC），即纠删码，是一种前向错误纠正技术（Forwar
 |clrn|in|1-bit|
 |encode_en|in|1-bit|
 |data_in|in|1344-bits|
-|encoded_data|out|1344-bits|
+|encoded_data|out|1600-bits|
 |valid|out|1-bit|
 |ready|out|1-bit|
 
